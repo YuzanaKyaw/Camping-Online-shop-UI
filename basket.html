@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Camping Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headsection">
+            <div class="logo">
+                <img src="image/icon/logo-img.jpg" class="logo-img" alt="retail camping company logo"><span>Retail Camping Company</span>
+            </div>
+            <input type="checkbox" id="animated-check">
+            <div class="search">
+                <input type="text" class="searchbar" placeholder="Search.....">
+                <label for="animated-check">
+                    <img class="btn-search" src="image/icon/search.png" alt="search icon">
+                </label>
+            </div>
+            <div class="btngroup">
+                <a href="sing-up.html" class="btn-signup">Sign up</a>
+                <a href="login.html" class="btn-login">Log in</a>
+
+                <label for="nav-check" id="btn-menu"></label>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <nav>
+                <input type="checkbox" name="check" id="nav-check">
+                <ul class="navbar" id="navbar">
+                    <li><a href="index.html" class="nav-item">Home</a></li>
+                    <li><a href="equipments.html" class="nav-item">Equipments</a></li>
+                    <li><a href="furnitures.html" class="nav-item">Furnitures</a></li>
+                    <li><a href="offers_packages.html" class="nav-item">Offers&Packages</a></li>
+                    <li><a href="basket.html" class="nav-item active">Basket</a></li>
+                    <li><a href="reviews.html" class="nav-item">Reviews</a></li>
+                    <li><a href="sing-up.html" class="btn-signup nav-item col-m-5">Sign up</a></li>
+                    <li><a href="login.html" class="btn-login nav-item col-m-5">Log in</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="basket">
+                    <div class="sub-header col-l-12 col-m-12 col-s-12">
+                        <h3>Your Basket</h3>
+                    </div>
+                    <div class="basket-info">
+                        <table class="center col-l-12 col-m-12 col-s-12">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Items</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="delete"><img src="image/icon/trash.png" alt=""></td>
+                                    <td>
+                                        <div class="item-info">
+                                            <img src="image/equipments/tent_4men.jpg" alt="">
+                                            <small>3 Person Tent </small>
+                                            <small class="item-price"><b>Price:</b> £78.99</small>
+                                        </div>
+                                    </td>
+                                    <td>£78.99</td>
+                                    <td><input type="number" value="1"></td>
+                                    <td>£78.99</td>
+                                </tr>
+                                <tr>
+                                    <td class="delete"><img src="image/icon/trash.png" alt=""></td>
+                                    <td>
+                                        <div class="item-info">
+                                            <img src="image/furnitures/camping_chair.png" alt="">
+                                            <small>Foldable chair</small>
+                                            <small class="item-price"><b>Price:</b> £56.40</small>
+                                        </div>
+                                    </td>
+                                    <td>£56.40</td>
+                                    <td><input type="number" value="2"></td>
+                                    <td>£112.80</td>
+                                </tr>
+                                <tr>
+                                    <td class="delete"><img src="image/icon/trash.png" alt=""></td>
+                                    <td>
+                                        <div class="item-info">
+                                            <img src="image/equipments/dinner_set.jpg" alt="">
+                                            <small>Dinner Set</small>
+                                            <small class="item-price"><b>Price:</b> £32.99</small>
+                                        </div>
+                                    </td>
+                                    <td>£32.99</td>
+                                    <td><input type="number" value="1"></td>
+                                    <td>£32.99</td>
+                                </tr>
+                                <tr>
+                                    <td class="delete"><img src="image/icon/trash.png" alt=""></td>
+                                    <td>
+                                        <div class="item-info">
+                                            <img src="image/furnitures/wood_table.png" alt="">
+                                            <small>Round Wood Table</small>
+                                            <small class="item-price"><b>Price:</b> £101.50</small>
+                                        </div>
+                                    </td>
+                                    <td>£101.50</td>
+                                    <td><input type="number" value="1"></td>
+                                    <td>£101.50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="basket-summary">
+                        <table class="">
+                            <tr>
+                                <td>Subtotal</td>
+                                <td>£326.28</td>
+                            </tr>
+                            <tr>
+                                <td>Tax</td>
+                                <td>£16.31</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>£342.59</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><button id="btnCheckOut">Check Out</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content row">
+            <div class="col-l-4 col-m-12 col-s-12">
+                <div class="logo">
+                    <img src="image/icon/logo-img.jpg" class="logo-img" alt="retail camping company logo"><span>Retail Camping Company</span>
+                </div>
+            </div>
+            <div class="footer-links col-l-4 col-m-12 col-s-12">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="equipments.html">Equipments</a></li>
+                    <li><a href="furnitures.html">Furnitures</a></li>
+                    <li><a href="offers_packages.html">Offers&Packages</a></li>
+                    <li><a href="basket.html">Basket</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="social-media col-l-4 col-m-12 col-s-12">
+                <div class="subscribe">
+                    <input type="text" id="txtEmail" placeholder="Enter your email...">
+                    <button class="btnSubscribe">Subscribe</button>
+                </div>
+                <h3>Follow Us:</h3>
+                <ul>
+                    <li class="icon" id="facebook">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="image/icon/facebook.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="icon" id="instagram">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="image/icon/instagram.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="icon" id="telegram">
+                        <a href="https://www.telegram.com" target="_blank">
+                            <img src="image/icon/telegram.jpeg" alt="">
+                        </a>
+                    </li>
+                    <li class="icon" id="twitter">
+                        <a href="https://telegram.org/" target="_blank">
+                            <img src="image/icon/old_twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li class="icon" id="youtube">
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="image/icon/youtube.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright col-l-12 col-m-12 col-s-12">
+                <h4>&copy; 2023 All right reserved </h4>
+                <p>Come and Shop our products and enjoy your camping</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
